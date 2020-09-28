@@ -18,9 +18,9 @@ import resolve from 'rollup-plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 
 export default {
-  input: 'my-element.js',
+  input: './dev/build/wc-shortcuts.js',
   output: {
-    file: 'my-element.bundled.js',
+    file: 'distribution/wc-shortcuts/wc-shortcuts.bundled.js',
     format: 'esm',
   },
   onwarn(warning) {

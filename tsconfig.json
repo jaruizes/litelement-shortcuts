@@ -6,7 +6,7 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "outDir": "./",
+    "outDir": "./dev/build",
     "rootDir": "./src",
     "strict": true,
     "noUnusedLocals": true,
